@@ -104,6 +104,35 @@ $(document).ready(function() {
 <option name=\"2016\" value=\"243,152\"> NW_COIN (2016)</option> \
 <option name=\"2016\" value=\"278,170\"> NW_COIN_CRATE (2016)</option> \
   </optgroup> \
+ <optgroup label=\"Interactions\"> \
+<option name=\"1978\" value=\"197,227\"> Alabaster Snowball (1978)</option> \
+<option name=\"2016\" value=\"197,227\"> Alabaster Snowball (2016)</option> \
+<option name=\"1978\" value=\"132,73\"> Bushy Evergreen (1978)</option> \
+<option name=\"2016\" value=\"132,73\"> Bushy Evergreen (2016)</option> \
+<option name=\"2016\" value=\"210,105\"> Business Card (2016)</option> \
+<option name=\"2016\" value=\"223,36\"> Cows (2016)</option> \
+<option name=\"2016\" value=\"262,131\"> Dr. Who (2016)</option> \
+<option name=\"2016\" value=\"108,297\"> Holly Evergreen (2016)</option> \
+<option name=\"1978\" value=\"108,297\"> Holly Evergreen (1978)</option> \
+<option name=\"2016\" value=\"230,47\"> Jason the Bale of Hay (2016)</option> \
+<option name=\"2016\" value=\"202,110\"> Jessica Dosis (2016)</option> \
+<option name=\"2016\" value=\"199,111\"> Josh Dosis (2016)</option> \
+<option name=\"1978\" value=\"155,193\"> Minty Candycane (1978)</option> \
+<option name=\"2016\" value=\"155,193\"> Minty Candycane (2016)</option> \
+<option name=\"2016\" value=\"88,212\"> Music Machine (2016)</option> \
+<option name=\"1978\" value=\"88,212\"> Music Machine (1978)</option> \
+<option name=\"1978\" value=\"247,37\"> Pepper Minstix (1978)</option> \
+<option name=\"2016\" value=\"247,37\"> Pepper Minstix (2016)</option> \
+<option name=\"1978\" value=\"225,151\"> Santa Claus (1978)</option> \
+<option name=\"2016\" value=\"236,281\"> Shinny Upatree (2016)</option> \
+<option name=\"1978\" value=\"236,281\"> Shinny Upatree (1978)</option> \
+<option name=\"2016\" value=\"44,294\"> Sparkle Redberry (2016)</option> \
+<option name=\"1978\" value=\"168,61\"> Sugarplum Mary (1978)</option> \
+<option name=\"2016\" value=\"168,61\"> Sugarplum Mary (2016)</option> \
+<option name=\"2016\" value=\"156,120\"> Tom Hessman (2016)</option> \
+<option name=\"2016\" value=\"75,248\"> Wunorse Openslae (2016)</option> \
+<option name=\"1978\" value=\"75,248\"> Wunorse Openslae (1978)</option> \
+  </optgroup> \
             </select> Date: <select name=\"dates\" id=\"dates\"><option name=\"date\" value=\"2016\">2016</option><option name=\"date\" value=\"1978"> 1978 </option> </select></h2> \
 ',
         draggable: true
