@@ -1,4 +1,4 @@
-# SANSHolidayHack
+# SANS Holiday Hack 2016
 
 Install TamperMonkey: https://tampermonkey.net/
 
