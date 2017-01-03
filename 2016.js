@@ -1,13 +1,11 @@
 // ==UserScript==
 // @name         SANS Holiday Hack 2016
 // @namespace    SansHolidayHack
-// @version      0.2
+// @version      0.9
 // @description  Cheat on the game
 // @author       Janusz Jasinski
 // @match        http://*janusz.co.uk/sans/2016/game/*
 // @require      https://code.jquery.com/jquery-3.1.1.min.js
-// @require      https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js
-// @resource     https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css
 // @grant        unsafeWindow
 // @grant        GM_addStyle
 // @grant        GM_notification
