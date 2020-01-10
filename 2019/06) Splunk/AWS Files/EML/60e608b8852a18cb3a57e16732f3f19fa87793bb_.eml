@@ -1,0 +1,90 @@
+Return-Path: <Carl.Banas@faculty.elfu.org>
+X-Original-To: ubuntu@ec2-54-89-48-176.compute-1.amazonaws.com
+Delivered-To: ubuntu@ec2-54-89-48-176.compute-1.amazonaws.com
+Received: from NAM03-CO1-obe.outbound.protection.outlook.com (mail-eopbgr790115.outbound.protection.outlook.com [40.107.79.115])
+	by ec2-54-89-48-176.compute-1.amazonaws.com (Postfix) with ESMTP id 59B3245E49
+	for <ubuntu@ec2-54-89-48-176.compute-1.amazonaws.com>; Thu, 21 Sun, 25 Aug 2019 17:28:17 +0000 (UTC)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=CTN+N60sw9N9Zqqscrx6Yg1EBWZXyLIyUB5XWIMwfk3A/UHSmy1iiMKe4y5dVWpwKInktIRWNAWAAoXnTJAU9xvIqn4qw6o1SzwAsl9zqLLaKBYETFpfeeSZ0J2zGJseTFJaoOOC21tjjrLwESG02KPS0C8Q94tew9Wwpj+k/5jDXynAwCE5uCys4TjMj0AdHmSZwwUB40h7oP4agubgvX+KMCPsRP+8wlxWwPoaMGP9NPgFKpt/1De1baL0cwYAvwxMjaWajwaZuLMC+Rd4BCmp/ntuTWPoI29OuqkHCS+shE5OvVZUtGfBDwc0xk6fa5ZdpXr/0Ks4Rs9g4KyNxA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=eho+H0Pl9yisNysjzTIsQyQXumAlQpgfX6q0TBNYUTI=;
+ b=HsAvTiwhVzGc0FS7yY0+C4dF8v8C7vNg1LAAOt9wqOA8fdYBxp1Oj1uPSziUI0WFpWnEqay+rcnmeq/Hq/67Q+uJp3y+/AyyF68RDq8xmrjh0vZPwvLfhY5snP2YcoI9BgLI+AX06X+zR3ZjC90rFMGEVuptNPYPxlVoCzYzY20VONnleU7ypb9xue9B/MDxpINz7ZtY0N8ak3r6UqfSbrNeA7cnsAFWkl45720auN4O5CdqbfwlvIl3swxoyDdry6YFDAFPynPizwpXjqAhy+6u8BO0LfSkUydeST4ye0XQZ6LVrQG+bLjsZi3OngSlhdhBYtBgO1q9bYt3aWYNcw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=faculty.elfu.org; dmarc=pass action=none
+ header.from=faculty.elfu.org; dkim=pass header.d=faculty.elfu.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=Elfu257.onmicrosoft.com; s=selector1-Elfu257-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=eho+H0Pl9yisNysjzTIsQyQXumAlQpgfX6q0TBNYUTI=;
+ b=hCvY101KfNjTOlzy9iCJJC7gIoFZ0q9sSM/+yjWFDRcgOYnCClvRBBh/LhmgAb6Uz+3O2En4z+vMc/hqCqaS6CfPY6bXMn25tbMRIPevfe3ioRj8/CFX9yaIVcJCGgFynctvGT1mjFKDNLNDY0RhkqFXgr3VXySGB2ydMMamd2M=
+Received: from BN7PR13MB2547.namprd13.prod.outlook.com (52.135.254.30) by
+ BN7PR13MB2275.namprd13.prod.outlook.com (52.135.253.156) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2474.12; Thu, 21 Sun, 25 Aug 2019 17:28:14 +0000
+Received: from BN7PR13MB2547.namprd13.prod.outlook.com
+ ([fe80::c919:fe4e:682f:4364]) by BN7PR13MB2547.namprd13.prod.outlook.com
+ ([fe80::c919:fe4e:682f:4364%3]) with mapi id 15.20.2495.010; Thu, 21 Sun, 25 Aug 2019
+ 17:28:14 +0000
+From: Carl Banas <Carl.Banas@faculty.elfu.org>
+To: Bradly Buttercups <Bradly.Buttercups@eIfu.org>
+Subject: RE: Holiday Cheer Assignment Submission
+Thread-Topic: Holiday Cheer Assignment Submission
+Thread-Index: AQHVoI+SQeRsWPDoZk66rlSJkiWldaeV4KLA
+Date: Thu, 21 Sun, 25 Aug 2019 17:28:14 +0000
+Message-ID:
+ <BN7PR13MB2547030B524AA756ED86D1EEA74E0@BN7PR13MB2547.namprd13.prod.outlook.com>
+References: <201911211717.xALHHWER207446@dwarf>
+In-Reply-To: <201911211717.xALHHWER207446@dwarf>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=Carl.Banas@faculty.elfu.org; 
+x-originating-ip: [74.221.181.14]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 3e9b9e70-2afa-48aa-2c2e-08d76ea83094
+x-ms-traffictypediagnostic: BN7PR13MB2275:|BN7PR13MB2275:
+x-microsoft-antispam-prvs:
+ <BN7PR13MB22750D4ED08691C422C728BFA74E0@BN7PR13MB2275.namprd13.prod.outlook.com>
+x-ms-exchange-transport-forked: True
+x-ms-exchange-transport-rules-loop: 1
+x-ms-oob-tlc-oobclassifiers: OLM:1923;
+x-forefront-prvs: 0228DDDDD7
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10019020)(376002)(34096005)(39830400003)(366004)(396003)(136003)(346002)(189003)(199004)(13464003)(498600001)(186003)(7736002)(71200400001)(6506007)(26005)(229853002)(586005)(7696005)(76176011)(11346002)(446003)(33656002)(38610400001)(53546011)(305945005)(102836004)(256004)(74316002)(5024004)(14444005)(25786009)(14454004)(71190400001)(6116002)(3846002)(6246003)(81156014)(9686003)(6436002)(55016002)(8936002)(8676002)(2906002)(6862004)(66946007)(66476007)(66556008)(64756008)(66446008)(52536014)(4744005)(5660300002)(66066001)(3480700005)(81166006)(99286004)(86362001)(76116006);DIR:OUT;SFP:1102;SCL:1;SRVR:BN7PR13MB2275;H:BN7PR13MB2547.namprd13.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:0;
+received-spf: None (protection.outlook.com: faculty.elfu.org does not
+ designate permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ r3XtI4jx0e6qxW71CIji3BIfn8M/r3De9vYNocSyqspDU3JtydG2FGB56TaEu+dFX5bBV4HcbovxekRAKWu+KPu9ePmgucnrXtT3QMutVK5U7EdkCYnKVjtol20TXPTiNT0CqXOLFNG+LVK7MLe2COP7wm4c6BCO9igGMUvH2P80PJbfnzSV5ADGhWxjfE+gBZaOBFr9/06pe9z2lVm44j+CbC8NkOoOI3jxzUckGpFjHGlm5YXyiuFu9g95mFBmfZSswd7sloub3Tvarbmb0bMXKp9dFjpHnyfprVnybyqFvjTytY1OwasSj9/96WAix6URTkI42OHUyRTBIlS8ixNgPURAsWs2iI44bpRTjxfHTFmzic7b4MNRi+DBJrsWYgTyXV4ZzEkJM2Qa0UDNaucDDhe01wSIhei1jw80ZqymAYgsKcDYHGNOWmdQoI3W
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-OriginatorOrg: faculty.elfu.org
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3e9b9e70-2afa-48aa-2c2e-08d76ea83094
+X-MS-Exchange-CrossTenant-originalarrivaltime: 21 Sun, 25 Aug 2019 17:28:14.2823
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: f3127d8b-83dd-44fd-94b5-99ae78113a8d
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: Vy8of4vivvNp/D3MhnL5swMJZQnBncfORK7ftfomFX2Mx8Ep1xCX3Ge20K0qlBPgf2hXWphjepzYmd+FKrQ0pIrjfsR/T7E9dbkLrDbqvt4=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN7PR13MB2275
+
+QnJhZGx5LCANCg0KSSBvcGVuZWQgeW91ciBhc3NpZ25tZW50ICh3aGljaCB3YXMgbm90IGVhc3ks
+IGJ5IHRoZSB3YXkpIGFuZCBpdCBzZWVtcyB5b3UgaGF2ZSBub3Qgb25seSBub3QgaW5jbHVkZWQg
+YW4gaW1hZ2UgcGVyIHRoZSBpbnN0cnVjdGlvbnMsIGJ1dCB5b3VyIGFzc2lnbm1lbnQgaXMgaWRl
+bnRpY2FsIHRvIGFub3RoZXIgc3R1ZGVudCdzIGFzc2lnbm1lbnQuICBUaGlzIG1lYW5zIHlvdXIg
+Z3JhZGUgd2lsbCBiZSAwLzEwMC4gIA0KDQotY3NiDQoNCi0tLS0tT3JpZ2luYWwgTWVzc2FnZS0t
+LS0tDQpGcm9tOiBCcmFkbHkgQnV0dGVyY3VwcyA8QnJhZGx5LkJ1dHRlcmN1cHNAZUlmdS5vcmc+
+IA0KU2VudDogVGh1cnNkYXksIE5vdmVtYmVyIDIxLCAyMDE5IDk6MTggQU0NClRvOiBDYXJsIEJh
+bmFzIDxDYXJsLkJhbmFzQGZhY3VsdHkuZWxmdS5vcmc+DQpTdWJqZWN0OiBIb2xpZGF5IENoZWVy
+IEFzc2lnbm1lbnQgU3VibWlzc2lvbg0KDQoNClByb2Zlc3NvciBCYW5hcywgSSBoYXZlIGNvbXBs
+ZXRlZCBteSBhc3NpZ25tZW50LiBQbGVhc2Ugb3BlbiB0aGUgYXR0YWNoZWQgemlwIGZpbGUgd2l0
+aCBwYXNzd29yZCAxMjM0NTY3ODkgYW5kIHRoZW4gb3BlbiB0aGUgd29yZCBkb2N1bWVudCB0byB2
+aWV3IGl0LiBZb3Ugd2lsbCBoYXZlIHRvIGNsaWNrICJFbmFibGUgRWRpdGluZyIgdGhlbiAiRW5h
+YmxlIENvbnRlbnQiIHRvIHNlZSBpdC4gVGhpcyB3YXMgYSBmdW4gYXNzaWdubWVudC4gSSBob3Bl
+IHlvdSBsaWtlIGl0ISAgLS1CcmFkbHkgQnV0dGVyY3Vwcw0KDQoNCg==

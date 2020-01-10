@@ -1,0 +1,185 @@
+Return-Path: <Carl.Banas@faculty.elfu.org>
+X-Original-To: ubuntu@ec2-54-89-48-176.compute-1.amazonaws.com
+Delivered-To: ubuntu@ec2-54-89-48-176.compute-1.amazonaws.com
+Received: from NAM03-CO1-obe.outbound.protection.outlook.com (mail-eopbgr790134.outbound.protection.outlook.com [40.107.79.134])
+	by ec2-54-89-48-176.compute-1.amazonaws.com (Postfix) with ESMTP id 6EAD845D88
+	for <ubuntu@ec2-54-89-48-176.compute-1.amazonaws.com>; Thu, 21 Sun, 25 Aug 2019 16:52:56 +0000 (UTC)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=RPKfqo51DUy9Ekd7Q4rPtTMvxQPWXsgY9kHC5OruxXuyzQsqQ36q+cJWt3tAMVse5O9pCwhHafwbNgnvUIeGESitwZlO3MNsSx1VsSaEv/3jvs5mP2JSeKrPuTohPzs8McKTxj8I8rPCXPuJ4+TJii0r1Dy3EciXEmlGKcn95DW+4tm1yShW04pt7l6MHa2dfGa76GyHHHSsO3FVqqM26a0z8UvHF+zyAmpqRoQ2/qqlivfLJkQDcfvmPTO/aVMeJfkbafU6KFiDO8DBHDs6SyCljbaXMLnRGUE+c5Rp7GXnIiRchbZX55mmhe6yy6jClsQNSMd3P/tHKp1qdSKFSA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=CYpBo1nTSGxBKdE5RZSea8REJirsnBDR9EQFwTYonKs=;
+ b=KNILKfKyfFlWfjxfLAdPMhQXraUp41IofR1rqCwgjF607x5TRw3Wl/7wFnBnQYaJIuDlBdf/VjgUfxjLVe77zNJltzzpAVAC6Fcyr77dRnxa6H+Crm9iLWavFohlF/hs/5lKbSgJRUGK6VwvaaYrDhgFfmY6yoF88RYCLMrNkl8QSwoSRvTnGxkDFVeDqn/V+iTxz+TphrV6AMDfHozbw19tV/3KkwMKF/njoocz4MwrVwXxcIAGOoDR+cwC3Pojsl2JBFx+D88ritMRY6XV+sMhh+n3hk64NIGw37GudvxmC8rH8SEMK3IbBj1AfSqcC9urPxirGpSM5W0GsalGTA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=faculty.elfu.org; dmarc=pass action=none
+ header.from=faculty.elfu.org; dkim=pass header.d=faculty.elfu.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=Elfu257.onmicrosoft.com; s=selector1-Elfu257-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=CYpBo1nTSGxBKdE5RZSea8REJirsnBDR9EQFwTYonKs=;
+ b=1qm+dD1mQYAUstZvBzJWVHFtH7/2Ho54UTqlyiHCVbpmmbTRLqcrqi8H/pniKq+jiB/S3l02YE7AW9A5RPEXr5njIpywAR7ZL8EXLDw2bKrDEIJ0wNGV/TWH3LSIix+YFJE/hch+omtNG3yuRoGY8Wg0CIKKMCkmUhVaBQTxT5A=
+Received: from BN7PR13MB2547.namprd13.prod.outlook.com (52.135.254.30) by
+ BN7PR13MB2498.namprd13.prod.outlook.com (52.135.245.31) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2495.10; Thu, 21 Sun, 25 Aug 2019 16:52:55 +0000
+Received: from BN7PR13MB2547.namprd13.prod.outlook.com
+ ([fe80::c919:fe4e:682f:4364]) by BN7PR13MB2547.namprd13.prod.outlook.com
+ ([fe80::c919:fe4e:682f:4364%3]) with mapi id 15.20.2495.010; Thu, 21 Sun, 25 Aug 2019
+ 16:52:55 +0000
+From: Carl Banas <Carl.Banas@faculty.elfu.org>
+To: Partridge Sugartree <Partridge.Sugartree@students.elfu.org>
+Subject: RE: Holiday Cheer Assignment Submission
+Thread-Topic: Holiday Cheer Assignment Submission
+Thread-Index: AQHVoIsp0PL3P4PY9UmZTkZGdzYeK6eV1w7A
+Date: Thu, 21 Sun, 25 Aug 2019 16:52:55 +0000
+Message-ID:
+ <BN7PR13MB254783736DA770C052B914F1A74E0@BN7PR13MB2547.namprd13.prod.outlook.com>
+References:
+ <BY5PR13MB30164DDEDEC6BC2F05670B08B04E0@BY5PR13MB3016.namprd13.prod.outlook.com>
+In-Reply-To:
+ <BY5PR13MB30164DDEDEC6BC2F05670B08B04E0@BY5PR13MB3016.namprd13.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=Carl.Banas@faculty.elfu.org; 
+x-originating-ip: [74.221.181.14]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: df50c9fb-ccbb-437a-9154-08d76ea3416b
+x-ms-traffictypediagnostic: BN7PR13MB2498:|BN7PR13MB2498:
+x-ms-exchange-transport-forked: True
+x-ms-exchange-transport-rules-loop: 1
+x-ms-oob-tlc-oobclassifiers: OLM:1824;
+x-forefront-prvs: 0228DDDDD7
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10019020)(39830400003)(136003)(34096005)(396003)(376002)(346002)(366004)(199004)(189003)(81156014)(81166006)(8676002)(8936002)(52536014)(5660300002)(71190400001)(71200400001)(66066001)(256004)(14444005)(5024004)(54896002)(6306002)(55016002)(9686003)(99286004)(7736002)(38610400001)(586005)(74316002)(6436002)(102836004)(229853002)(6862004)(66476007)(66446008)(64756008)(66556008)(76116006)(66946007)(86362001)(2906002)(6246003)(3480700005)(6116002)(790700001)(3846002)(26005)(186003)(53546011)(6506007)(76176011)(498600001)(446003)(25786009)(11346002)(7696005)(558084003)(14454004)(33656002);DIR:OUT;SFP:1102;SCL:1;SRVR:BN7PR13MB2498;H:BN7PR13MB2547.namprd13.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:0;MX:1;
+received-spf: None (protection.outlook.com: faculty.elfu.org does not
+ designate permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ WN6xD2n8R1NCr1+XGGA3LUZaarEBPXIK0QbIdPbh9qyVSHS7sZvFNTC5aVy9SA0VUPOoVRsZc/eMorfl2VuKhkoUgNGh0k74J4eEnZZs2EqH3cWsTl63sSsy6adskAj0z9MSYE/lyFiDtWIjc2DC/FAwZIHxWk/ZmKp9Fu29bbXoEYCZlhfmmewKL8Fi60PyHqzwt9wPpBBrKiPZ47zo2m+uI0tbI75ileFEvuB7l3Kufy859E7FpNYq/XWsK+Mk7pnnIT2srvT7RQSQ/PUChmwIuo0ovu2Hi2ax83eWZIgOyRlowkbLBnN3J7nbOKeqZXN3wAee1h6RX8jUHiiomYC7R79VEhmJ8aqJ5BlJnWckPhYpnQeuIKZKH/DiGI1F2nRqaXPZff4glp+bj5zHKRRpsL6FbMilIa2hgTxi1EKJ1vklhaRi4TKKBmfowgxH
+Content-Type: multipart/alternative;
+	boundary="_000_BN7PR13MB254783736DA770C052B914F1A74E0BN7PR13MB2547namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: faculty.elfu.org
+X-MS-Exchange-CrossTenant-Network-Message-Id: df50c9fb-ccbb-437a-9154-08d76ea3416b
+X-MS-Exchange-CrossTenant-originalarrivaltime: 21 Sun, 25 Aug 2019 16:52:55.1108
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: f3127d8b-83dd-44fd-94b5-99ae78113a8d
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 71toxCP4vhbm4caZ8i3rL2iJHd5ovTi2tYQCOrZ8WbV7LbaDZ5xnCW8FcSCp1Zg9ijfcC10HmyVWZfxcbsZt1cbyt1oNBywiQZQ97LfR/2Q=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN7PR13MB2498
+
+--_000_BN7PR13MB254783736DA770C052B914F1A74E0BN7PR13MB2547namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Partridge,
+
+Thank you for your submission.
+
+80/100
+
+csb
+
+From: Partridge Sugartree <Partridge.Sugartree@students.elfu.org>
+Sent: Thursday, Sun, 25 Augember 21, 2019 8:46 AM
+To: Carl Banas <Carl.Banas@faculty.elfu.org>
+Subject: Holiday Cheer Assignment Submission
+
+Essay attached.
+
+--_000_BN7PR13MB254783736DA770C052B914F1A74E0BN7PR13MB2547namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Partridge, <o:p></o:p></p>
+<p class=3D"MsoNormal"><br>
+Thank you for your submission. <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">80/100<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">csb<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Partridge Sugartree &lt;Partridge.Sugar=
+tree@students.elfu.org&gt;
+<br>
+<b>Sent:</b> Thursday, Sun, 25 Augember 21, 2019 8:46 AM<br>
+<b>To:</b> Carl Banas &lt;Carl.Banas@faculty.elfu.org&gt;<br>
+<b>Subject:</b> Holiday Cheer Assignment Submission<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;color:black">Essay a=
+ttached.<o:p></o:p></span></p>
+</div>
+</div>
+</body>
+</html>
+
+--_000_BN7PR13MB254783736DA770C052B914F1A74E0BN7PR13MB2547namp_--

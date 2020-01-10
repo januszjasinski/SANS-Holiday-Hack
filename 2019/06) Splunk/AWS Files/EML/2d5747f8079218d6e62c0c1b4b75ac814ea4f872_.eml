@@ -1,0 +1,331 @@
+Return-Path: <Carl.Banas@faculty.elfu.org>
+X-Original-To: ubuntu@ec2-54-89-48-176.compute-1.amazonaws.com
+Delivered-To: ubuntu@ec2-54-89-48-176.compute-1.amazonaws.com
+Received: from NAM05-CO1-obe.outbound.protection.outlook.com (mail-eopbgr720104.outbound.protection.outlook.com [40.107.72.104])
+	by ec2-54-89-48-176.compute-1.amazonaws.com (Postfix) with ESMTP id 6345045E3B
+	for <ubuntu@ec2-54-89-48-176.compute-1.amazonaws.com>; Thu, 21 Sun, 25 Aug 2019 17:15:31 +0000 (UTC)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=YaatywByfPHMyGjPDSukaWSdTr6um+aHwkLAekHxwX2qRRFa2xqW0E/LIP3Y4/9olugEEUu1XF0sbxeDLa0djzY3cwrFuCzDd92gQGLqc5aiLOqrHHa5d7v/wgpsia5B1R0vg3WYzdA4RC9AH5LtnxwhhWIAhCHqy3aUUUhYeAkYNObv8X6YlF01pZtOauuRrOpDy3UOFbzAo2iNymkCM77I1SNDcaDcpHFa9Az1Q2aPQKU0xM0AN/ursgGh2ctjrVl7Y3WtPZn/+bxk9JfCf6fJzW9lGJB8GTqWZZL6esVrXnwOeSZHmC/mk8FXRc/+ykWpiXmU2asXqj5cqCgcUQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=miHuuG1AO53rv+PY4y7L/O5yen0EsdJ/5gzWLn11SIY=;
+ b=KmEV7X+MIE/R7Q/Hv4W7sfHX/uaAT0e/KE/mLjIzJNWNkinULPbrf19XmFOdrssWw73UFWckFFIafCKcm29MXGZ1/P0vprPEQomj+zVTfKER5qEL+MO5yYKoPs3guar5Herg8Xe+EhTDaSFyLFB8amgmNGLGi/tXIxFcSrLR241inAtrSgwEPzBX6joGWHS8JM/bY9oRRUMMwuYx/n8/nWbL3009dimkkgJKXImsOsBDACRdKg41b5Q4bY03Y9okxh3Eq4cDrZd996CltX2mFSrizIfzF7vZQDen+00PPF1f/mCo9bLPMxfb65qCoy4EY9+fmzdH6FnQC1VZMvh4sg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=faculty.elfu.org; dmarc=pass action=none
+ header.from=faculty.elfu.org; dkim=pass header.d=faculty.elfu.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=Elfu257.onmicrosoft.com; s=selector1-Elfu257-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=miHuuG1AO53rv+PY4y7L/O5yen0EsdJ/5gzWLn11SIY=;
+ b=Vy65ksXtvrMXkccgaj8mGKCKk94lcskwfMhXOpIK9tvE4XoASYUHOOXRxtAIe2oAxPNJ6cgYCZXKhVOOXF6dupIx4y47TIcwEW5EpcfyBlxBxGt+qyc8r7QUTwTXOZ5wDiSWlHNwg4NR74u2EstAjPxNUX3tOblMrFEZab/6xmI=
+Received: from BN7PR13MB2547.namprd13.prod.outlook.com (52.135.254.30) by
+ BN7PR13MB2499.namprd13.prod.outlook.com (52.135.254.18) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2474.9; Thu, 21 Sun, 25 Aug 2019 17:15:28 +0000
+Received: from BN7PR13MB2547.namprd13.prod.outlook.com
+ ([fe80::c919:fe4e:682f:4364]) by BN7PR13MB2547.namprd13.prod.outlook.com
+ ([fe80::c919:fe4e:682f:4364%3]) with mapi id 15.20.2495.010; Thu, 21 Sun, 25 Aug 2019
+ 17:15:28 +0000
+From: Carl Banas <Carl.Banas@faculty.elfu.org>
+To: Turtledove Fairytree <Turtledove.Fairytree@students.elfu.org>
+Subject: RE: Holiday Cheer Assignment Submission
+Thread-Topic: Holiday Cheer Assignment Submission
+Thread-Index: AQHVoI43EmuKic0iPEi6pxsgQSrYNaeV3UJw
+Date: Thu, 21 Sun, 25 Aug 2019 17:15:28 +0000
+Message-ID:
+ <BN7PR13MB25472B36E3F92BB9210A07E3A74E0@BN7PR13MB2547.namprd13.prod.outlook.com>
+References:
+ <CY4PR13MB08862273D2CE670DF800BCBDDB4E0@CY4PR13MB0886.namprd13.prod.outlook.com>
+In-Reply-To:
+ <CY4PR13MB08862273D2CE670DF800BCBDDB4E0@CY4PR13MB0886.namprd13.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=Carl.Banas@faculty.elfu.org; 
+x-originating-ip: [74.221.181.14]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 9dd5e639-9de8-40fb-b5b2-08d76ea66805
+x-ms-traffictypediagnostic: BN7PR13MB2499:|BN7PR13MB2499:
+x-ms-exchange-transport-forked: True
+x-ms-exchange-transport-rules-loop: 1
+x-ms-oob-tlc-oobclassifiers: OLM:983;
+x-forefront-prvs: 0228DDDDD7
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10019020)(376002)(346002)(34096005)(396003)(39830400003)(366004)(136003)(199004)(189003)(51914003)(64756008)(256004)(14444005)(81156014)(186003)(81166006)(66066001)(229853002)(6862004)(52536014)(86362001)(8676002)(586005)(11346002)(33656002)(74316002)(38610400001)(99286004)(6436002)(3480700005)(71200400001)(71190400001)(66946007)(6246003)(446003)(76116006)(66476007)(55016002)(6306002)(3846002)(5660300002)(6116002)(54896002)(498600001)(53546011)(8936002)(66446008)(7736002)(6506007)(76176011)(7696005)(26005)(2906002)(102836004)(790700001)(14454004)(25786009)(9686003)(66556008);DIR:OUT;SFP:1102;SCL:1;SRVR:BN7PR13MB2499;H:BN7PR13MB2547.namprd13.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:0;MX:1;
+received-spf: None (protection.outlook.com: faculty.elfu.org does not
+ designate permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ lVo+a0b9YjCpVlkaApkCsDapgBBfRKnK8BfPV25F1yh1/pgLfpt1brl2ulT77HB6wKFQycIkwPDRiUe9Gop+6tSmy+mi28cRnV3ksziBW9kGeBVAKcPXr0VZ4r2cOD1MuSDMpz6OIEx95a3QQ1nluILNQRnv1ewVkz/X9tHMb2JoUh2gq3SRiX4pPcSKq31Xfk0WAIyHuRZ5TzQYbltZlS59Uyi/jOqCNeH9vNa1bVPeOTBIjJaF7OxLytQwEync/yp1ylZwKwWewSlfIMjvQbHcnxf+SGt/rZIwwSh0gBmr9b0j4wM3xFdK0IOHrqNB96/pqrD2q2IkMxEJRWe1xZtOp3RbV2+rikNTHhGqtf8FFgEkK0Td3Nvyi4fIOiBRCjghq7h5yXitReT14eDyBpMjLz5h3SpIX+LGExcx9fnng8Q8266qLS9afMAFJyPh
+Content-Type: multipart/alternative;
+	boundary="_000_BN7PR13MB25472B36E3F92BB9210A07E3A74E0BN7PR13MB2547namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: faculty.elfu.org
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9dd5e639-9de8-40fb-b5b2-08d76ea66805
+X-MS-Exchange-CrossTenant-originalarrivaltime: 21 Sun, 25 Aug 2019 17:15:28.3676
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: f3127d8b-83dd-44fd-94b5-99ae78113a8d
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 8uLlAzr5Kjv89FnKOKBzKLxNhYbti5sW+KAbgPwPPOqqI34LpyJplDw3ZWQDIIs/1UJHK05Z5Ur8EV1NHI0BTmJ3pNWUutWtd8KwEpucqbc=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN7PR13MB2499
+
+--_000_BN7PR13MB25472B36E3F92BB9210A07E3A74E0BN7PR13MB2547namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Turtledove,
+
+Great work!  Thanks for the submission.
+
+100/100
+csb
+
+From: Turtledove Fairytree <Turtledove.Fairytree@students.elfu.org>
+Sent: Thursday, Sun, 25 Augember 21, 2019 9:09 AM
+To: Carl Banas <Carl.Banas@faculty.elfu.org>
+Subject: Holiday Cheer Assignment Submission
+
+You know Dasher and Dancer and Prancer and Vixen
+Comet and Cupid and Donner and Blitzen
+But do you recall
+The most famous reindeer of all?
+Rudolph the Red-Nosed Reindeer
+Had a very shiny nose
+And if you ever saw it
+You would even say it glows
+All of the other reindeer
+Used to laugh and call him names
+They never let poor Rudolph
+Join in any reindeer games
+Then one foggy Christmas Eve
+Santa came to say
+"Rudolph, with your nose so bright
+Won't you guide my sleigh tonight?"
+Then how the reindeer loved him
+As they shouted out with glee
+"Rudolph the Red-Nosed Reindeer
+You'll go down in history"
+Rudolph the Red-Nosed Reindeer
+Had a very shiny nose
+And if you ever saw it
+You would even say it glows
+All of the other reindeer
+Used to laugh and call him names
+They never let poor Rudolph
+Join in any reindeer games
+Then one foggy Christmas Eve
+Santa came to say
+"Rudolph, with your nose so bright
+Won't you guide my sleigh tonight?"
+Then how the reindeer loved him
+As they shouted out with glee
+"Rudolph the Red-Nosed Reindeer
+You'll go down in history"
+
+NEVER. GETS. OLD.
+
+Best essay ever, prof banas!
+
+T. Fairytree
+
+
+--_000_BN7PR13MB25472B36E3F92BB9210A07E3A74E0BN7PR13MB2547namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Turtledove, <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Great work!&nbsp; Thanks for the submission. <o:p></=
+o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">100/100<o:p></o:p></p>
+<p class=3D"MsoNormal">csb<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Turtledove Fairytree &lt;Turtledove.Fai=
+rytree@students.elfu.org&gt;
+<br>
+<b>Sent:</b> Thursday, Sun, 25 Augember 21, 2019 9:09 AM<br>
+<b>To:</b> Carl Banas &lt;Carl.Banas@faculty.elfu.org&gt;<br>
+<b>Subject:</b> Holiday Cheer Assignment Submission<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"margin-top:9.0pt">
+<div style=3D"margin-bottom:9.0pt">
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">You know Das=
+her and Dancer and Prancer and Vixen<br>
+Comet and Cupid and Donner and Blitzen<br>
+But do you recall<br>
+The most famous reindeer of all?<o:p></o:p></span></p>
+</div>
+<div style=3D"margin-bottom:9.0pt">
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">Rudolph the =
+Red-Nosed Reindeer<br>
+Had a very shiny nose<br>
+And if you ever saw it<br>
+You would even say it glows<o:p></o:p></span></p>
+</div>
+<div style=3D"margin-bottom:9.0pt">
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">All of the o=
+ther reindeer<br>
+Used to laugh and call him names<br>
+They never let poor Rudolph<br>
+Join in any reindeer games<o:p></o:p></span></p>
+</div>
+<div style=3D"margin-bottom:9.0pt">
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">Then one fog=
+gy Christmas Eve<br>
+Santa came to say<br>
+&quot;Rudolph, with your nose so bright<br>
+Won't you guide my sleigh tonight?&quot;<o:p></o:p></span></p>
+</div>
+<div style=3D"margin-bottom:9.0pt">
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">Then how the=
+ reindeer loved him<br>
+As they shouted out with glee<br>
+&quot;Rudolph the Red-Nosed Reindeer<br>
+You'll go down in history&quot;<o:p></o:p></span></p>
+</div>
+<div style=3D"margin-bottom:9.0pt">
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">Rudolph the =
+Red-Nosed Reindeer<br>
+Had a very shiny nose<br>
+And if you ever saw it<br>
+You would even say it glows<o:p></o:p></span></p>
+</div>
+</div>
+<div style=3D"margin-bottom:9.0pt">
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">All of the o=
+ther reindeer<br>
+Used to laugh and call him names<br>
+They never let poor Rudolph<br>
+Join in any reindeer games<o:p></o:p></span></p>
+</div>
+<div style=3D"margin-bottom:9.0pt;transition: max-height 0.3s ease 0s;max-h=
+eight: 84px;overflow:hidden">
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">Then one fog=
+gy Christmas Eve<br>
+Santa came to say<br>
+&quot;Rudolph, with your nose so bright<br>
+Won't you guide my sleigh tonight?&quot;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">Then how the=
+ reindeer loved him<br>
+As they shouted out with glee<br>
+&quot;Rudolph the Red-Nosed Reindeer<br>
+You'll go down in history&quot;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222"><o:p>&nbsp;<=
+/o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">NEVER. GETS.=
+ OLD.<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222"><o:p>&nbsp;<=
+/o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">Best essay e=
+ver, prof banas!<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222"><o:p>&nbsp;<=
+/o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#222222">T. Fairytree=
+<o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;color:black"><o:p>&n=
+bsp;</o:p></span></p>
+</div>
+</div>
+</body>
+</html>
+
+--_000_BN7PR13MB25472B36E3F92BB9210A07E3A74E0BN7PR13MB2547namp_--
