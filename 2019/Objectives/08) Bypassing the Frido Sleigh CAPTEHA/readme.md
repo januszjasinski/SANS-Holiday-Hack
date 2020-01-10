@@ -2,7 +2,7 @@
 
 * Use another ML tool
 
-# Code
+# Running the code
 
 ```bash
 git clone https://github.com/chrisjd20/img_rec_tf_ml_demo.git
