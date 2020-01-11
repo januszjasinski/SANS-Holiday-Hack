@@ -1,3 +1,7 @@
+# Wishlist
+
+* See what that updater.py was up to in the MongoDB terminal challenge
+
 # Leaks
 
 * https://github.com/florianakos/kringlecon-zeeklogs-srf
