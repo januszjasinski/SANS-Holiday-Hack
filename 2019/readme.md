@@ -19,3 +19,5 @@
 * https://pollev.github.io/Kringlecon-2-Turtle-Doves/
 * https://github.com/pollev/santas_little_helper
 * https://medium.com/215cyber/sans-holiday-hack-2019-optical-decoding-of-keys-ce7351a9952e
+* https://github.com/crahan/HolidayHackChallenge2019
+* https://kringlecon2.salaheldin.online/
