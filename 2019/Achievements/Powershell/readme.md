@@ -171,5 +171,27 @@ d-----           1/12/20  7:56 PM                riddle
 ------           1/12/20  7:51 PM        5662902 archive
 --r---          12/13/19  4:29 PM           2029 motd
 
-PS /home/elf>
+PS /home/elf> Get-ChildItem -Path /"home/elf/depths/" -Recurse | Where { !$_.PSisContainer } | Where {(Get-FileHash -Path $_.FullName -Algorithm MD5).hash -eq "25520151A320B5B0D21561F92C8F6224"}
+
+
+    Directory: /home/elf/depths/produce
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+--r---          11/18/19  7:53 PM            224 thhy5hll.txt
+
+PS /home/elf> Get-Content /home/elf/depths/produce/thhy5hll.txt
+temperature?val=-33.5
+
+I am one of many thousand similar txt's contained within the deepest of /home/elf/depths. Finding me will give you the most strength but doing so will require Piping all the FullName's to Sort Length.
+PS /home/elf> Get-ChildItem -Path /"home/elf/depths/" -Recurse | Sort-Object {$_.Fullname.Length} | Select -last 1 | Format-Table -Wrap -Autosize
+
+
+    Directory: /home/elf/depths/larger/cloud/behavior/beauty/enemy/produce/age/chair/unknown/escape/vote/long/writer/behind/ahead/thin/occasionally/explore/tape/wherever/practical/therefore/cool/p
+    late/ice/play/truth/potatoes/beauty/fourth/careful/dawn/adult/either/burn/end/accurate/rubbed/cake/main/she/threw/eager/trip/to/soon/think/fall/is/greatest/become/accident/labor/sail/dropped/f
+    ox
+
+Mode         LastWriteTime Length Name
+----         ------------- ------ ----
+--r---   11/18/19  7:53 PM    209 0jhj5xz6.txt
 ```
