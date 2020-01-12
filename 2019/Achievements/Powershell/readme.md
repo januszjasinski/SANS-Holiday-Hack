@@ -105,8 +105,6 @@ riddle                         Squeezed and compressed I am hidden away. Expand 
 SHELL                          /home/elf/elf
 SHLVL                          1
 TERM                           xterm
-USER                           elf
-userdomain                     laserterminal
 USERDOMAIN                     laserterminal
 username                       elf
 USERNAME                       elf
@@ -116,16 +114,11 @@ PS /home/elf> gci env:riddle | Sort-Object name | Format-List -Property *
 PSPath        : Microsoft.PowerShell.Core\Environment::riddle
 PSDrive       : Env
 PSProvider    : Microsoft.PowerShell.Core\Environment
-PSIsContainer : False
 Name          : riddle
 Key           : riddle
 Value         : Squeezed and compressed I am hidden away. Expand me from my prison and I will show you the way. Recurse through all /etc and Sort on my LastWriteTime to reveal im the newest of 
                 all.
-
-
 PS /home/elf> Get-Childitem -Recurse '\etc' | Sort {$_.LastwriteTime} | SELECT -last 1
-Get-Childitem : Access to the path '/etc/ssl/private' is denied.
-At line:1 char:1
 + Get-Childitem -Recurse '\etc' | Sort {$_.LastwriteTime} | SELECT -las ...
 + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 + CategoryInfo          : PermissionDenied: (/etc/ssl/private:String) [Get-ChildItem], UnauthorizedAccessException
@@ -134,8 +127,6 @@ At line:1 char:1
 
 
     Directory: /etc/apt
-
-Mode                LastWriteTime         Length Name
 ----                -------------         ------ ----
 --r---           1/12/20  7:51 PM        5662902 archive
 
@@ -147,5 +138,38 @@ Mode                LastWriteTime         Length Name
 ----                -------------         ------ ----
 d-----           1/12/20  7:56 PM                refraction
 
-PS /home/elf/riddle>
+PS /home/elf/riddle> cd ./refraction/
+PS /home/elf/riddle/refraction> dir
+
+
+    Directory: /home/elf/riddle/refraction
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+------           11/7/19 11:57 AM            134 riddle
+------           11/5/19  2:26 PM        5724384 runme.elf
+
+PS /home/elf/riddle/refraction> Get-Content ./riddle
+Very shallow am I in the depths of your elf home. You can find my entity by using my md5 identity:
+
+25520151A320B5B0D21561F92C8F6224
+
+PS /home/elf/riddle/refraction> chmod +x ./runme.elf
+PS /home/elf/riddle/refraction> ./runme.elf
+refraction?val=1.867
+PS /home/elf/riddle/refraction> cd ../
+PS /home/elf/riddle> cd ../
+PS /home/elf> dir
+
+
+    Directory: /home/elf
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-r---          12/13/19  5:15 PM                depths
+d-----           1/12/20  7:56 PM                riddle
+------           1/12/20  7:51 PM        5662902 archive
+--r---          12/13/19  4:29 PM           2029 motd
+
+PS /home/elf>
 ```
