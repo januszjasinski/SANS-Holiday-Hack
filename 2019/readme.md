@@ -5,6 +5,8 @@
 * See if our theory in the ML challenge would have held out
 * Find the files mentioned in https://srf.elfu.org/README.md
 * Do a tamper script for the SQLi objective
+* Add all chats
+* Add all scripts, one liners and searches (Graylog and Splunk)
 
 # Leaks
 
