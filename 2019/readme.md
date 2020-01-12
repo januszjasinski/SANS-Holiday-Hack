@@ -11,5 +11,8 @@
 * https://github.com/florianakos/kringlecon-elfscrow
 * https://github.com/florianakos/kringlecon-capteha
 * https://www.guldmyr.com/blog/kringlecon-2019-write-up/
+* https://github.com/hab1ts/2019-Kringlecon
+* https://github.com/ElHackerMan/2019_Kringlecon_FrostyKeypad
 * https://pollev.github.io/Kringlecon-2-Turtle-Doves/
+* https://github.com/pollev/santas_little_helper
 * https://medium.com/215cyber/sans-holiday-hack-2019-optical-decoding-of-keys-ce7351a9952e
