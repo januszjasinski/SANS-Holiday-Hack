@@ -3,6 +3,7 @@
 * See what that updater.py was up to in the MongoDB terminal challenge
 * Find more easter eggs
 * See if our theory in the ML challenge would have held out
+* Find the files mentioned in https://srf.elfu.org/README.md
 
 # Leaks
 
