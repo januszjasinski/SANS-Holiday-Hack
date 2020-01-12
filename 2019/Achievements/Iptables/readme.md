@@ -35,17 +35,13 @@ This device is embedded into one's teeth braces for easy management and monitori
 
 ## Proper Firewall configuration:
 
-The firewall used for this system is `iptables`. The following is an example of how to set a default policy with using `iptables`:
+The firewall used for this system is iptables. The following is an example of how to set a default policy with using iptables:
 
-```
 sudo iptables -P FORWARD DROP
-```
 
 The following is an example of allowing traffic from a specific IP and to a specific port:
 
-```
 sudo iptables -A INPUT -p tcp --dport 25 -s 172.18.5.4 -j ACCEPT
-```
 
 A proper configuration for the Smart Braces should be exactly:
 
