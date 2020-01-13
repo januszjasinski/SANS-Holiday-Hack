@@ -21,3 +21,4 @@
 * https://medium.com/215cyber/sans-holiday-hack-2019-optical-decoding-of-keys-ce7351a9952e
 * https://github.com/crahan/HolidayHackChallenge2019
 * https://kringlecon2.salaheldin.online/
+* https://medium.com/@7a616368/sans-holiday-hack-challenge-2019-1e551b97bf48
