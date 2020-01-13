@@ -7,6 +7,7 @@
 * ~~Do a tamper script for the SQLi objective~~
 * Add all chats
 * Add all scripts, one liners and searches (Graylog and Splunk)
+* Decode UPC in logo
 
 # Leaks
 
